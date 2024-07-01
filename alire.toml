@@ -1,0 +1,14 @@
+name = "embedded_ada_2022_test"
+description = ""
+version = "0.1.0-dev"
+
+authors = ["Your Name"]
+maintainers = ["Your Name <example@example.com>"]
+maintainers-logins = ["github-username"]
+licenses = "MIT"
+website = ""
+tags = []
+
+executables = ["embedded_ada_2022_test"]
+[[depends-on]]
+gnat_arm_elf = "^14"
